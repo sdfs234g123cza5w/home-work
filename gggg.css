@@ -1,0 +1,12 @@
+.h{
+    background-color: yellow;
+}
+#g{
+    display: inline;
+}
+.inline{
+    display: block;
+}
+div{
+    display: block;
+}
