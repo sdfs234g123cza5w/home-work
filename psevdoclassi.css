@@ -1,0 +1,30 @@
+.button:hover{
+    background-color: darkblue;
+    color:black;
+}
+.buttonne:focus{
+    background-color: blanchedalmond;
+    color:aqua;
+}
+li:first-child{
+    color:red;
+}
+li:last-child{
+    color:blue;
+}
+div:first-child{
+    color:brown
+}
+div:last-child{
+    background-color: blue;
+}
+div:nth-child(odd){
+    background-color: black;
+    color:red;
+}
+div:nth-child(even){
+    background-color: chartreuse;
+}
+.link:hover{
+    background-color:darkviolet;
+}
