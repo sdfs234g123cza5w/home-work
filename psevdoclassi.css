@@ -28,3 +28,9 @@ div:nth-child(even){
 .link:hover{
     background-color:darkviolet;
 }
+input:hover:first-child{
+    color:seagreen
+}
+input:focus:last-child{
+    color:darksalmon
+}
