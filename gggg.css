@@ -1,12 +1,22 @@
 .h{
     background-color: yellow;
+    text-align: center;
 }
 #g{
     display: inline;
+    background-color:red;
+    text-align: center;
 }
 .inline{
     display: block;
+    text-align: center;
 }
 div{
     display: block;
+    text-align: center;
+
+}
+#g{
+    display: block;
+    text-align: center;
 }
