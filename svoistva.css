@@ -10,3 +10,16 @@ h1{
 #abz{
     font-weight:bold
 }
+img{
+    background_color:red
+    background-image: url('image.jpg')
+}
+#acv{
+     padding: 15px
+}
+#bra{
+    margin: 20px
+}
+#gur{
+    border: 1px solid black
+}
