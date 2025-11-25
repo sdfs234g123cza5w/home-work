@@ -1,0 +1,110 @@
+.one{
+    display:block;
+    background-color:blue
+}
+.two{
+    display:inline;
+    background-color:brown;
+}
+.three{
+    display:flex;
+    background-color:darkgreen;
+}
+.four{
+    flex: 0 0 30%;
+    background-color:gray;
+}
+.five{
+    display:flex;
+    flex-direction: row;
+    background-color:bisque;
+}
+.six{
+    display:flex;
+    flex-wrap:nowrap;
+    background-color: lightpink;
+}
+.seven{
+    display:flex;
+    flex-flow:wrap;
+    color:brown;
+}
+.eight{
+    display:flex;
+    justify-content:center;
+    color:blue;
+}
+.nine{
+    display:flex;
+    align-items:row;
+    color:burlywood;
+}
+.ten{
+    display:flex;
+    align-content:stretch;
+    flex-wrap:wrap;
+    flex-grow: 1;
+}
+.eleven{
+    display:flex;
+    background-color:midnightblue;
+    flex-shrink: 1;
+}
+.twelve{
+    display:flex;
+    background-color:olive;
+    flex-basis:1;
+}
+.thirteen{
+    display:flex;
+    flex: 1 1 200px;
+    background-color:orange
+}
+.container{
+    display:flex;
+    background-color:pink;
+    height:400px;
+}
+.fifeteen{
+    flex: 0 0 50%;
+    background-color:aqua;
+}
+.m{
+    background-color:brown;
+    flex: 0 0 50%;
+}
+.g{
+    background-color:darkmagenta;
+    flex: 0 0 100px
+}
+a {
+    display:flex;
+    justify-content:center;
+    align-items:space-between;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    flex-basis: 100px;
+}
+.card{
+    background: #f2f2f2;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    flex: 1 1 250px;
+}
+.h2{
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
