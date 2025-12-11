@@ -1,25 +1,36 @@
 p{
-    color:purple
+    color:purple;
 }
 h1{
-    font-size:40px
+    font-size:40px;
 }
 #zag{
-    text-align:center
+    text-align:center;
 }
 #abz{
-    font-weight:bold
+    font-weight:bold;
 }
 img{
-    background_color:red
-    background-image: url('image.jpg')
+    background_color:red;
+    background-image: url('image.jpg');
 }
 #acv{
-     padding: 15px
+     padding: 15px;
 }
 #bra{
-    margin: 20px
+    margin: 20px;
+    width: 10px;
+    height: 3px;
 }
 #gur{
-    border: 1px solid black
+    border: 1px solid black;
+    width: 60px;
+    height: 25px;
+    overflow: scroll;
 }
+#nla{
+    width: 30px;
+    height: 15px;
+    overflow: hidden;
+}
+
