@@ -1,0 +1,96 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, 350px);
+    gap:30px;
+    justify-content:center;
+}
+
+.card-1{
+    padding: 20px 20px 30px 20px;
+    background-color:#E1EDE6;
+    width: fit-content;
+}
+
+.card-2{
+    padding: 20px 20px 30px 20px;
+    background-color:#E1EDE6;
+    width: fit-content;
+}
+
+
+.card-3{
+    padding: 20px 20px 30px 20px;
+    background-color:#E1EDE6;
+    width: fit-content;
+}
+
+
+.card-4{
+    padding: 20px 20px 30px 20px;
+    background-color:#E1EDE6;
+    width: fit-content;
+}
+
+.card-5{
+    padding: 20px 20px 30px 20px;
+    background-color:#E1EDE6;
+    width: fit-content;
+}
+
+.card-6{
+    padding: 20px 20px 30px 20px;
+    background-color:#E1EDE6;
+    width: fit-content;
+}
+
+.autor1{
+    color:#86928B;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:100%;
+    margin-bottom: 15px;
+    margin-top:20px;
+}
+
+.title1{
+    color:#2C2D35;
+    font-weight:500;
+    font-size: 30px;
+    line-height: 100%;
+    margin-bottom: 8px;
+}
+
+.materials1{
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+.price1{
+    color:#598D66;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+.btn2{
+    border:1px solid #598D66;
+    color: #598D66;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    line-height:100%;
+    padding: 14.5px 81.5px;
+    width:310px;
+    height:65px;
+}
+
+@media(max-width:1000px){
+    .container{
+    display:grid;
+    grid-template-columns: repeat(2, 350px);
+    gap:30px;
+    justify-content:center;
+}
+}
