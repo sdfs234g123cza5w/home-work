@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url(Arvo-Regular.ttf);
+}
+
+body {
+    background-color: #f0f0f0;
+    margin: 40px;
+}
+
+p {
+    font-family: 'MyFont';
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.5;
+}
+
+h1 {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: darkblue;
+  font-size: 32px;
+}
