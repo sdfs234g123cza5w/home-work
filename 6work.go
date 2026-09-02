@@ -60,8 +60,9 @@ func main() {
          	balance += 500
     	  case 3:
          	balance -= 200
-		  case 0:
+		if m == 0:
 			break
+			
 }
 
 	}
